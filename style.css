@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "SangBlu";
+  src: url("assets/fonts/SangBlu-Sunrise/SangBleu\ Surise.ttf"),
+    format(truetype);
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("assets/fonts/dm-sans/DMSans-Regular.ttf"), format(truetype);
+}
+body {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container {
+  max-width: 1169px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col50 {
+  max-width: 50%;
+  flex: 0 50%; /*flex-grow flex-shrink flex-basis */
+  padding: 0 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-family: "SangBleu";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.16;
+  color: #18212d;
+}
+figure {
+  display: block;
+}
+.property-left-content {
+  padding-left: 80px;
+}
+.property-left-content h2 {
+  max-width: 513px;
+  margin-bottom: 61px;
+}
+.property {
+  padding: 80px 0 61px 0;
+}
+.property-right-content {
+  padding-right: 67px;
+}
+.property-right-content figure {
+  margin-bottom: 69px;
+}
+.property-right-content p {
+  color: #717175;
+  margin-bottom: 75px;
+}
+.cmm-btn {
+  display: inline-block;
+  padding: 15px 42px;
+  background: #aa6aaa;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 100px;
+  transition: 0.5s all ease-in;
+}
+.cmm-btn:hover {
+  background: #18212d;
+  color: #aa6aaa;
+}
